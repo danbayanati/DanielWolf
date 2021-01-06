@@ -7,9 +7,31 @@
 }
 
 .header {
+    display: flex;
+    justify-content: flex-start;
     height: 7rem;
     background-color: #fff;
     border-bottom: var(--color-Gray-light-2);
+
+    .title-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            display: flex;
+            align-items: center;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+        }
+    }
 }
 
 .content {
